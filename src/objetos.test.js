@@ -164,6 +164,7 @@ describe("Essencial", () => {
 const cupomNulabssa = { texto: "NULABSSA", desconto: 10 };
 
 const cupomAluranu = { texto: "ALURANU", desconto: 15 };
+
 describe("Desejável", () => {
     test("Deve retornar os produtos com menor e o maior preços.", () => {
         expect(obterMenorEMaiorPrecos([])).toBeUndefined();
